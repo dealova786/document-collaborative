@@ -9,7 +9,6 @@
     <div class="d-flex justify-content-end mt-3 me-3">
 
     <form method="POST" action="{{ route('logout') }}">
-
         @csrf
 
         <button type="submit" class="btn btn-danger">
